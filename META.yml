@@ -1,0 +1,20 @@
+--- #YAML:1.0
+name: liblo-perl
+version: 0.01
+author:
+  - Nicholas J. Humfrey, njh@aelius.com
+abstract: Perl interface for liblo Lightweight OSC library
+license: gpl
+requires:
+  Test: 1.00
+build_requires:
+  Module::Build: 0.20
+provides:
+  LibLO:
+    file: lib/LibLO.pm
+    version: 0.01
+  LibLO::Client:
+    file: lib/LibLO/Client.pm
+  LibLO::Message:
+    file: lib/LibLO/Message.pm
+generated_by: Module::Build version 0.26
